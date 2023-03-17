@@ -1,0 +1,161 @@
+body{
+    background-color: rgb(222, 220, 220);
+}
+
+.seccion_info{
+    background-color:rgb(177, 177, 177);
+    flex-direction: column;
+    align-items: center;
+    height:100vh;
+    color: aliceblue;
+    width: 20vw;
+    margin: 0;
+}
+
+.contenerdor{
+    margin: 15px 150px;
+    background-color: rgb(255, 255, 255);
+}
+
+.foto-perfil{
+    display: flex;
+    height: 20vh;
+    width: 20vw;
+    justify-content: center;
+}
+
+.foto-perfil img{
+    margin-top: 5vh;
+    height: 15vh;
+    width: 8vw;
+    border-radius: 150px;
+
+}
+
+.font-type{
+    justify-content: center;
+    font-family: 'roboto' , sans-serif;
+}
+
+
+.contenedor-informacion{
+    justify-content: center;
+    margin-left: 6%;
+}
+
+.titulo{
+    text-align: left;
+    font-size: large;
+    margin-bottom: 0%;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.titular{
+    text-align: center;
+    font-size: large;
+    margin-bottom: 0%;
+    font-weight: bold;
+    margin-top: 30px;
+
+}
+
+.informacion{
+    text-align: center;
+    font-size: medium;
+    margin-top: 0%;
+}
+
+.separador{
+    display: flex;
+    flex-direction: row;
+    position: absolute top;
+    margin-top: 2%;
+}
+
+.cuadro{
+    margin-left: 60px;
+    border: solid 2px rgb(255, 255, 255);
+    width: 7px; 
+    height: 7px;
+    
+}
+
+.ralla{
+    align-self: center;
+    border-bottom: solid 2px transparent;
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    height: 1px;
+    margin-left: 10px;
+
+}
+
+.list-apt ul{
+    position: absolute left;
+}
+
+.seccion-datos{
+
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+    max-width: 70vw;
+    position: absolute top;
+}
+
+.font-datos{
+    font-family: "noto serif", serif;
+}
+
+.nom-cont{
+    font-size: 40px;
+    margin-bottom: 1%;
+}
+
+.div{
+    position: absolute top;
+    margin-bottom: 2.5%;
+    margin-left: 5%;
+}
+
+.sep-color{
+    background-color:rgb(212, 212, 212);;
+    padding-bottom: 2.5%;
+    margin-left: 0%;
+    width: 100%;
+}
+
+.ti-datos{
+    margin-top: 2.5%;
+    margin-bottom: 5%;
+    font-size: 20px;
+}
+
+.resalt-letter{
+    font-size: 35px;
+    color: rgb(129, 128, 128);
+}
+
+.space{
+    margin-left: 5%;
+}
+
+.juntar{
+    display: flex;
+    flex-direction: row;
+}
+
+.fuerte{
+    font-weight: bold;
+
+}
+
+.debil{
+    font-weight: lighter;
+    margin-left: 1%;
+    font-style: italic;
+}
+
+
+
